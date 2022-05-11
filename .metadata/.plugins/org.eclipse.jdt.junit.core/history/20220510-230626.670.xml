@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="Tests" project="GreeterClasses" tests="6" started="6" failures="0" errors="0" ignored="0">
+  <testsuite name="Tests" time="0.046" uniqueid="[engine:junit-jupiter]/[class:Tests]">
+    <testcase name="testGreetMethod" classname="Tests" time="0.033" displayname="testGreetMethod()" uniqueid="[engine:junit-jupiter]/[class:Tests]/[method:testGreetMethod()]"/>
+    <testcase name="testSecondConstructor" classname="Tests" time="0.001" displayname="testSecondConstructor()" uniqueid="[engine:junit-jupiter]/[class:Tests]/[method:testSecondConstructor()]"/>
+    <testcase name="testLoudInitialValue" classname="Tests" time="0.002" displayname="testLoudInitialValue()" uniqueid="[engine:junit-jupiter]/[class:Tests]/[method:testLoudInitialValue()]"/>
+    <testcase name="testSimonBecky" classname="Tests" time="0.002" displayname="testSimonBecky()" uniqueid="[engine:junit-jupiter]/[class:Tests]/[method:testSimonBecky()]"/>
+    <testcase name="testSimonSusan" classname="Tests" time="0.002" displayname="testSimonSusan()" uniqueid="[engine:junit-jupiter]/[class:Tests]/[method:testSimonSusan()]"/>
+    <testcase name="testDefaultConstructor" classname="Tests" time="0.001" displayname="testDefaultConstructor()" uniqueid="[engine:junit-jupiter]/[class:Tests]/[method:testDefaultConstructor()]"/>
+  </testsuite>
+</testrun>

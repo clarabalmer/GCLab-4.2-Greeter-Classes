@@ -1,0 +1,41 @@
+
+import org.junit.Assert;
+import org.junit.jupiter.api.Test;
+
+
+
+class Tests {
+
+	@Test
+	void testDefaultConstructor() {
+		Greeter gr = new Greeter();
+		Assert.assertNull(gr.getGreeting());
+	}
+	@Test
+	void testSecondConstructor() {
+		Greeter gr = new Greeter("hiya");
+		Assert.assertEquals("hiya", gr.getGreeting());
+	}
+	@Test
+	void testGreetMethod() {
+		Greeter gr = new Greeter("Hi");
+		Assert.assertEquals("Hi, Rebecca!", gr.greet("Rebecca"));
+	}
+	@Test
+	void testSimonSusan() {
+		SimonGreeter sGr = new SimonGreeter("Salutations");
+		Assert.assertEquals("Simon Says, \"Salutations, Susan!\"", sGr.greet("Susan"));
+	}
+	@Test
+	void testSimonBecky() {
+		SimonGreeter sGr = new SimonGreeter("What's up");
+		Assert.assertEquals("Simon Says, \"What's up, Becky!\"", sGr.greet("Becky"));
+	}
+	@Test
+	void testLoudInitialValue() {
+		LoudGreeter loudGr = new LoudGreeter("Hiya");
+		Assert.assertEquals("Hiya, Felix!!", loudGr.greet("Felix"));
+	}
+	
+	
+}

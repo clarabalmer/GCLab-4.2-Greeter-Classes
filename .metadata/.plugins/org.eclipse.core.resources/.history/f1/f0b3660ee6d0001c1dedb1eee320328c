@@ -1,0 +1,43 @@
+import java.util.ArrayList;
+import java.util.Scanner;
+
+public class GreeterApp {
+
+	public static void main(String[] args) {
+		Scanner scnr = new Scanner(System.in);
+		System.out.print("Choose a greeting: ");
+		String userGreet = scnr.nextLine();
+		System.out.print("Enter your name: ");
+		String userName = scnr.nextLine();
+		System.out.print("How much louder than loud do you want the loud greeting? (Enter a positive integer): ");
+		int loudLoop = scnr.nextInt();
+		System.out.print("What html tag would you like to use? (Enter just the letter/letters): ");
+		String userTag = scnr.next();
+		
+		ArrayList<Greeter> greetList = new ArrayList<>();
+		
+		greetList.add(new Greeter(userGreet));
+//		Greeter gr = new Greeter(userGreet);
+//		System.out.println(gr.greet(userName));
+		greetList.add(new SimonGreeter(userGreet));
+//		SimonGreeter simonGr = new SimonGreeter(userGreet);
+//		System.out.println(simonGr.greet(userName));
+		greetList.add(new LoudGreeter(userGreet));
+//		LoudGreeter loudGr = new LoudGreeter(userGreet);
+//		for (int i = 0; i < loudLoop; i++) {
+//			loudGr.addVolume();
+//		}
+//		System.out.println(loudGr.greet(userName));
+		greetList.add(new HtmlGreeter(userGreet));
+//		HtmlGreeter htmlGr = new HtmlGreeter(userGreet);
+//		htmlGr.setTagName(userTag);
+//		System.out.println(htmlGr.greet(userName));
+		
+		for (int i = 0; i < greetList.size(); i++) {
+			System.out.println(greetList.get(i).greet(userName));
+		}
+		
+		scnr.close();
+	}
+
+}

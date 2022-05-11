@@ -1,0 +1,31 @@
+
+import org.junit.Assert;
+import org.junit.jupiter.api.Test;
+
+
+
+class Tests {
+
+	@Test
+	void testDefaultConstructor() {
+		Greeter gr = new Greeter();
+		Assert.assertNull(gr.getGreeting());
+	}
+	@Test
+	void testSecondConstructor() {
+		Greeter gr = new Greeter("hiya");
+		Assert.assertEquals("hiya", gr.getGreeting());
+	}
+	@Test
+	void testGreetMethod() {
+		Greeter gr = new Greeter("Hi");
+		Assert.assertEquals("Hi, Rebecca!", gr.greet("Rebecca"));
+	}
+	@Test
+	void testSimonConstructor() {
+		SimonGreeter sGr = new SimonGreeter("Salutations");
+		Assert.assertEquals("Simon Says, \"Salutations, Rebecca!\"", sGr.greet("Rebecca"));
+	}
+	
+	
+}

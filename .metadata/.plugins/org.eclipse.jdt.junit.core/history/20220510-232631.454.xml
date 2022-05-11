@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="Tests" project="GreeterClasses" tests="10" started="10" failures="0" errors="0" ignored="0">
+  <testsuite name="Tests" time="0.064" uniqueid="[engine:junit-jupiter]/[class:Tests]">
+    <testcase name="testGreetMethod" classname="Tests" time="0.028" displayname="testGreetMethod()" uniqueid="[engine:junit-jupiter]/[class:Tests]/[method:testGreetMethod()]"/>
+    <testcase name="testLoudOneLouder" classname="Tests" time="0.002" displayname="testLoudOneLouder()" uniqueid="[engine:junit-jupiter]/[class:Tests]/[method:testLoudOneLouder()]"/>
+    <testcase name="testHtmlBasic" classname="Tests" time="0.005" displayname="testHtmlBasic()" uniqueid="[engine:junit-jupiter]/[class:Tests]/[method:testHtmlBasic()]"/>
+    <testcase name="testLoudNoLouder" classname="Tests" time="0.002" displayname="testLoudNoLouder()" uniqueid="[engine:junit-jupiter]/[class:Tests]/[method:testLoudNoLouder()]"/>
+    <testcase name="testSecondConstructor" classname="Tests" time="0.003" displayname="testSecondConstructor()" uniqueid="[engine:junit-jupiter]/[class:Tests]/[method:testSecondConstructor()]"/>
+    <testcase name="testHtmlTag" classname="Tests" time="0.002" displayname="testHtmlTag()" uniqueid="[engine:junit-jupiter]/[class:Tests]/[method:testHtmlTag()]"/>
+    <testcase name="testSimonBecky" classname="Tests" time="0.004" displayname="testSimonBecky()" uniqueid="[engine:junit-jupiter]/[class:Tests]/[method:testSimonBecky()]"/>
+    <testcase name="testSimonSusan" classname="Tests" time="0.001" displayname="testSimonSusan()" uniqueid="[engine:junit-jupiter]/[class:Tests]/[method:testSimonSusan()]"/>
+    <testcase name="testDefaultConstructor" classname="Tests" time="0.003" displayname="testDefaultConstructor()" uniqueid="[engine:junit-jupiter]/[class:Tests]/[method:testDefaultConstructor()]"/>
+    <testcase name="testLoudEightLouder" classname="Tests" time="0.0" displayname="testLoudEightLouder()" uniqueid="[engine:junit-jupiter]/[class:Tests]/[method:testLoudEightLouder()]"/>
+  </testsuite>
+</testrun>

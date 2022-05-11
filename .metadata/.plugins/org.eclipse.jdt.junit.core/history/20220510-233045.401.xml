@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="Tests" project="GreeterClasses" tests="12" started="12" failures="0" errors="0" ignored="0">
+  <testsuite name="Tests" time="0.026" uniqueid="[engine:junit-jupiter]/[class:Tests]">
+    <testcase name="testGreetMethod" classname="Tests" time="0.0" displayname="testGreetMethod()" uniqueid="[engine:junit-jupiter]/[class:Tests]/[method:testGreetMethod()]"/>
+    <testcase name="testHtmlConstructor" classname="Tests" time="0.0" displayname="testHtmlConstructor()" uniqueid="[engine:junit-jupiter]/[class:Tests]/[method:testHtmlConstructor()]"/>
+    <testcase name="testLoudOneLouder" classname="Tests" time="0.0" displayname="testLoudOneLouder()" uniqueid="[engine:junit-jupiter]/[class:Tests]/[method:testLoudOneLouder()]"/>
+    <testcase name="testHtmlBasic" classname="Tests" time="0.0" displayname="testHtmlBasic()" uniqueid="[engine:junit-jupiter]/[class:Tests]/[method:testHtmlBasic()]"/>
+    <testcase name="testLoudNoLouder" classname="Tests" time="0.0" displayname="testLoudNoLouder()" uniqueid="[engine:junit-jupiter]/[class:Tests]/[method:testLoudNoLouder()]"/>
+    <testcase name="testSecondConstructor" classname="Tests" time="0.0" displayname="testSecondConstructor()" uniqueid="[engine:junit-jupiter]/[class:Tests]/[method:testSecondConstructor()]"/>
+    <testcase name="testHtmlPlus" classname="Tests" time="0.002" displayname="testHtmlPlus()" uniqueid="[engine:junit-jupiter]/[class:Tests]/[method:testHtmlPlus()]"/>
+    <testcase name="testHtmlTag" classname="Tests" time="0.003" displayname="testHtmlTag()" uniqueid="[engine:junit-jupiter]/[class:Tests]/[method:testHtmlTag()]"/>
+    <testcase name="testSimonBecky" classname="Tests" time="0.002" displayname="testSimonBecky()" uniqueid="[engine:junit-jupiter]/[class:Tests]/[method:testSimonBecky()]"/>
+    <testcase name="testSimonSusan" classname="Tests" time="0.002" displayname="testSimonSusan()" uniqueid="[engine:junit-jupiter]/[class:Tests]/[method:testSimonSusan()]"/>
+    <testcase name="testDefaultConstructor" classname="Tests" time="0.002" displayname="testDefaultConstructor()" uniqueid="[engine:junit-jupiter]/[class:Tests]/[method:testDefaultConstructor()]"/>
+    <testcase name="testLoudEightLouder" classname="Tests" time="0.002" displayname="testLoudEightLouder()" uniqueid="[engine:junit-jupiter]/[class:Tests]/[method:testLoudEightLouder()]"/>
+  </testsuite>
+</testrun>

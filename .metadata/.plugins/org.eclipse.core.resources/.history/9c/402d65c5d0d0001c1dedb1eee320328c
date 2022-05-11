@@ -1,0 +1,13 @@
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+class Tests {
+
+	@Test
+	void testDefaultConstructor() {
+		Greeter gr = new Greeter();
+		assertEquals(null, gr.getGreeting());
+	}
+
+}

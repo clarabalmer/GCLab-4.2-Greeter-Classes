@@ -1,0 +1,21 @@
+import java.util.Scanner;
+
+import Greeter.SimonGreeter;
+
+public class GreeterApp {
+
+	public static void main(String[] args) {
+		Scanner scnr = new Scanner(System.in);
+		System.out.print("Choose a greeting: ");
+		String userGreet = scnr.nextLine();
+		Greeter gr = new Greeter(userGreet);
+		System.out.print("Enter your name: ");
+		String userName = scnr.nextLine();
+		System.out.print(gr.greet(userName));
+		
+		SimonGreeter simonGr = new SimonGreeter(userGreet);
+		
+		scnr.close();
+	}
+
+}
